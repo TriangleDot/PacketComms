@@ -2,6 +2,29 @@
 """
 Created on Sun Jul 27 20:04:51 2014
 
+==============================================================================
+ License
+==============================================================================
+
+
+Copyright 2016 John Bainbridge
+
+This file is part of PacketComms.
+
+PacketComms is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+PacketComms is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with PacketComms.  If not, see <http://www.gnu.org/licenses/>.
+
+
 Generic packet client/server functions
 ===========================================
 
@@ -61,7 +84,7 @@ import numpy as np
 
 
 # Magic number for identifying packets from this library
-MAGIC_NUMBER = 7616893
+MAGIC_NUMBER = 3986316
 
 # Packet numbers
 DATA_PACKET = 4001
